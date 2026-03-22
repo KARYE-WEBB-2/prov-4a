@@ -1,6 +1,7 @@
 # Prov: lilla molntuss
 
 **Fil att skriva i:** `molntuss.js`
+
 **Mål:** Gör canvas-animationen interaktiv och rita ut objekten genom att lösa uppgifterna nedan.
 
 ---
