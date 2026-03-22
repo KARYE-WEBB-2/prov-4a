@@ -25,11 +25,11 @@ Skapa ett bildobjekt och ladda in bilden `./sun.png` så att den är redo att ri
 ## Del 2: rita på canvas
 
 **4. Rita solen**
-Skapa en funktion `ritaSol()`. I denna funktion ska du använda `drawImage` för att rita ut din sol-bild på canvasen baserat på x- och y-värdena i ditt `sol`-objekt. Sätt bredd och höjd till 100.
+* Skapa en funktion `ritaSol()`. I denna funktion ska du använda `drawImage` för att rita ut din sol-bild på canvasen baserat på x- och y-värdena i ditt `sol`-objekt. Sätt bredd och höjd till 100.
 
 **5. Rita molnet**
-Skapa en funktion `ritaMoln()`. Använd ritmetoder (t.ex. `beginPath`, `arc` och `fill`) för att rita ut molnet. 
-*Tips: Ett moln kan bestå av tre överlappande halvcirklar som ritas bredvid varandra utifrån molnets `x`- och `y`-koordinater. Sätt färgen till `#999999`.*
+* Skapa en funktion `ritaMoln()`. Använd ritmetoder (t.ex. `beginPath`, `arc` och `fill`) för att rita ut molnet. 
+* *Tips: Ett moln kan bestå av tre överlappande halvcirklar som ritas bredvid varandra utifrån molnets `x`- och `y`-koordinater. Sätt färgen till `#999999`.*
 
 ---
 
