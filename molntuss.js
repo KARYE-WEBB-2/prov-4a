@@ -1,11 +1,9 @@
 // --- Del 1: inställningar och grundläggande ---
 
-// 1. Hämta element och sätt upp canvas
-// Hämta canvas-elementet här:
+// 1. Setup
+// Ställ in canvas för 2d
 
-// Skapa din 2D-kontext (ctx) här:
-
-// Hämta knapparna #pilv, #pilh och #moln här:
+// Hämta knapparna .pilv, .pilh och .moln här:
 
 
 // 2. Ladda in bilden
@@ -13,7 +11,7 @@
 
 
 // 3. Skapa dina dataobjekt
-// Skapa objektet 'moln' med x, y och egenskapen spela (som ska vara false från början)
+// Skapa objektet 'moln' med x, y och variabeln spela (som ska vara false från början)
 
 // Skapa objektet 'sol' med x och y (du kan slumpa dessa eller sätta fasta värden)
 
@@ -39,13 +37,13 @@ function ritaMoln() {
 // --- Del 3: interaktion och animering ---
 
 // 6. Styra solen med knappar
-// Lägg till en eventlistener för "Sol upp" (#pilv) som minskar solens y-värde
+// Lägg till en eventlistener för "Sol upp" (.pilv) som minskar solens y-värde
 
-// Lägg till en eventlistener för "Sol ned" (#pilh) som ökar solens y-värde
+// Lägg till en eventlistener för "Sol ned" (.pilh) som ökar solens y-värde
 
 
 // 7. Animera molnet (logik)
-// Lägg till en eventlistener för "Animera moln" (#moln) som sätter molnets 'spela' till true
+// Lägg till en eventlistener för "Animera moln" (.moln) som sätter molnets 'spela' till true
 
 
 function animeraMoln() {
