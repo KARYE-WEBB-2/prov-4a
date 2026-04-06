@@ -4,8 +4,6 @@
 
 **Mål:** Gör canvas-animationen interaktiv och rita ut objekten genom att lösa uppgifterna nedan.
 
----
-
 ## Del 1: inställningar och grundläggande
 
 **1. Hämta element och sätt upp canvas**
@@ -20,8 +18,6 @@ Skapa ett bildobjekt och ladda in bilden `./sun.png` så att den är redo att ri
 * Skapa ett objekt `moln` som innehåller startvärden för `x` (t.ex. 200), `y` (t.ex. 150) och en boolean `spela` som från början är `false`.
 * Skapa ett objekt `sol` som innehåller startvärden för `x` och `y`. (Du kan slumpa startkoordinaterna med `Math.random()` om du vill, eller sätta fasta värden).
 
----
-
 ## Del 2: rita på canvas
 
 **4. Rita solen**
@@ -30,8 +26,6 @@ Skapa ett bildobjekt och ladda in bilden `./sun.png` så att den är redo att ri
 **5. Rita molnet**
 * Skapa en funktion `ritaMoln()`. Använd ritmetoder (t.ex. `beginPath`, `arc` och `fill`) för att rita ut molnet. 
 * *Tips: Ett moln kan bestå av tre överlappande halvcirklar som ritas bredvid varandra utifrån molnets `x`- och `y`-koordinater. Sätt färgen till `#999999`.*
-
----
 
 ## Del 3: interaktion och animering
 
